@@ -26,11 +26,11 @@ Each topic has its own folder with a small JavaScript example. Most completed le
 - [Functions and Arrow Functions](<Functions and Arrow Functions/README.md>) - reusable functions and arrow-function syntax.
 - [Hoisting](<Hoisting/README.md>) - how JavaScript handles declarations before execution.
 - [Template Literals](<Template Literals/README.md>) - dynamic strings with backticks and `${...}`.
-- `Destructuring` - extracting values from arrays and objects.
-- `Important Methods` - commonly used JavaScript methods.
-- `Logical and Ternary Operators` - writing conditions compactly.
-- `Set Timeout` and `Set Interval` - scheduled and repeated work.
-- `Component and JSS` - component and JSX concepts.
+- [Destructuring](<Destructuring/README.md>) - extracting values from arrays and objects.
+- [Important Methods](<Important Methods/README.md>) - `map`, `filter`, `reduce`, and `forEach`.
+- [Logical and Ternary Operators](<Logical and Ternary Operators/README.md>) - writing conditions compactly.
+- [`setTimeout`](<Set Timeout/README.md>) and [`setInterval`](<Set Interval/README.md>) - scheduled and repeated work.
+- [Components and JSX](<Component and JSS/README.md>) - component and JSX concepts.
 
 ## How to use this repository
 
@@ -46,7 +46,7 @@ Run an example with Node.js from the repository root:
 node "Template Literals/template_literal.js"
 ```
 
-Replace the path with the lesson file you want to run. Install a current [Node.js](https://nodejs.org/) version if `node` is not available in your terminal.
+Replace the path with the lesson file you want to run. Install a current Node.js version if `node` is not available in your terminal. The Components and JSX example belongs in a React project, so it cannot run directly with Node.js.
 
 ## Before moving to React
 
